@@ -78,22 +78,8 @@ app.use(session({
 app.use('/', index);
 app.use('/users', users);
 
-function auth (req, res, next) {
-    console.log(req.user);
-
-    if (!req.user) {
-      var err = new Error('You are not authenticated!');
-      res.setHeader('WWW-Authenticate', 'Basic');                          
-      err.status = 401;
-      next(err);
-    }
-    else {
-          next();
-    }
-}
-
-
-app.use(auth);
+var config = require('./config');
+const url = config.mongoUrl;
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
