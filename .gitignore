@@ -1,14 +1,14 @@
 node_modules
 package-lock.json
 
-confusion/node_modules
-conFusion_server/node_modules
-nodejs-mongodb/node_modules
-node-mongoose/node_modules
-conFusion_server/package-lock.json
-conFusion_server/package-lock.json
-nodejs-mongodb/package-lock.json
-node-mongoose/package-lock.json
+/confusion/node_modules
+/conFusion_server/node_modules
+/nodejs-mongodb/node_modules
+/node-mongoose/node_modules
+/conFusion_server/package-lock.json
+/conFusion_server/package-lock.json/
+/nodejs-mongodb/package-lock.json/
+/node-mongoose/package-lock.json/
 
 # Compiled source #
 ###################
