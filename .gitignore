@@ -1,7 +1,5 @@
-/confusion/node_modules
-/conFusion_server/node_modules
-/nodejs-mongodb/node_modules
-/node-mongoose/node_modules
+node_modules
+package-lock.json
 
 # Compiled source #
 ###################
